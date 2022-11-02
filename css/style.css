@@ -46,6 +46,10 @@ main{
     line-height: 3.6875rem;
 }
 
+.selected{
+    background-color: cornflowerblue;
+}
+
 /* FOOTER */
 footer{
     padding: 1rem;
