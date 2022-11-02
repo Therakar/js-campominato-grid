@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: bisque;
+}
+
+main{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: cornflowerblue;
+}
