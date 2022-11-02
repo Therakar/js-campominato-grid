@@ -5,21 +5,45 @@
     box-sizing: border-box;
 }
 
+/* MAIN STYLE */
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* HEADER */
 header{
-    background-color: bisque;
+    padding: 1rem;
 }
 
+/* MAIN */
 main{
     background-color: aquamarine;
     flex-grow: 1;
+    display: flex;
 }
 
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 37.5rem;
+    width: 37.5rem;
+    margin: auto;
+    align-content: flex-start;
+    
+
+}
+
+.boardNumber{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    
+}
+
+/* FOOTER */
 footer{
-    background-color: cornflowerblue;
+    padding: 1rem;
 }
