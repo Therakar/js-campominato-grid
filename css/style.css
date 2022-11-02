@@ -24,23 +24,26 @@ main{
     display: flex;
 }
 
-.board{
+.boardContainer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 31.25rem;
+    width: 31.25rem;
     margin: auto;
     align-content: flex-start;
+    border: 1px solid black;
     
-
+    /* debug */
+    background-color: bisque;
 }
 
 .boardNumber{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
-    
+    text-align: center;
+    line-height: 3.6875rem;
 }
 
 /* FOOTER */
